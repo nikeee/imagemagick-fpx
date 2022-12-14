@@ -46,4 +46,4 @@ If you need a test file, you can convert [an old picture of my cat](./assets/CAT
 ## License
 [MIT](./LICENSE)
 
-If helped you recovering old photos, [you can buy me a coffee](https://github.com/sponsors/nikeee). Or just make someone happy with the photos.
+If this helped you recovering old photos, [you can buy me a coffee](https://github.com/sponsors/nikeee). Or just make someone happy with the photos.
