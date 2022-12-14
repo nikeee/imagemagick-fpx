@@ -10,7 +10,8 @@ RUN apt-get update -qqqqy && \
     libltdl-dev \
     libjpeg-dev \
     libtiff-dev \
-    libpng-dev
+    libpng-dev \
+    python3
 
 RUN git clone https://github.com/ImageMagick/libfpx /libfpx && \
     cd /libfpx && \
@@ -29,6 +30,6 @@ RUN git clone https://github.com/ImageMagick/ImageMagick /ImageMagick && \
 # https://stackoverflow.com/a/52280776
 RUN ldconfig /usr/local/lib
 
-COPY ./mass-convert.sh /usr/local/bin/mass-convert
+COPY ./mass-convert.py /usr/local/bin/mass-convert
 
 ENTRYPOINT ["/usr/local/bin/magick"]
