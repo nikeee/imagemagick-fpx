@@ -38,7 +38,7 @@ docker run --rm -it -v $(pwd):/images ghcr.io/nikeee/imagemagick-fpx /images/P00
 
 The container also contains a script that converts all files in a directory, recursively and while keeping the directory structure:
 ```sh
-docker run --rm -it -v $(pwd):/images --entrypoint mass-convert ghcr.io/nikeee/imagemagick-fpx /images /image/out
+docker run --rm -it -v $(pwd):/images --entrypoint mass-convert ghcr.io/nikeee/imagemagick-fpx /images /images/out
 ```
 
 If you need a test file, you can convert [an old picture of my cat](./assets/CAT.FPX).
