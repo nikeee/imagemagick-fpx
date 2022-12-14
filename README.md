@@ -41,6 +41,8 @@ The container also contains a script that converts all files in a directory, rec
 docker run --rm -it -v $(pwd):/images --entrypoint mass-convert ghcr.io/nikeee/imagemagick-fpx /images /image/out
 ```
 
+If you need a test file, you can convert [an old picture of my cat](./assets/CAT.FPX).
+
 ## License
 [MIT](./LICENSE)
 
