@@ -28,7 +28,7 @@ jobs:
         password: ${{ env.REGISTRY_PASSWORD }}
 
     - name: Build Dockerfile
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         push: true
         tags: "ghcr.io/nikeee/imagemagick-fpx:latest"
